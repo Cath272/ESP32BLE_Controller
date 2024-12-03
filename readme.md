@@ -13,17 +13,17 @@ The controller uses the [ESP32 XINPUT library](https://github.com/Mystfit/ESP32-
 
 ## Hardware Design
 
--ESP32 Wroom Module
+- ESP32 Wroom Module
 
--USB C 14pin port
+- USB C 14pin port
 
--TPS63020 - High Efficiency Single Inductor Buck-Boost Converter 
+- TPS63020 - High Efficiency Single Inductor Buck-Boost Converter 
 
--1.5uH Inductor
+- 1.5uH Inductor
 
--CH343P USB to High-Speed Serial Chip
+- CH343P USB to High-Speed Serial Chip
 
--10 Buttons
+- 10 Buttons
 
 - 2 BC817 Transistors
   
