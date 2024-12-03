@@ -25,7 +25,7 @@ Hardware Design
 -10 Buttons
 
 - 2 BC817 Transistors
-- 
+  
 - 2 LEDS (RED for Power and BLUE IO2 configurable)
 
 ![image](https://github.com/user-attachments/assets/a4106942-4592-48a9-bb1f-f15289bb0bf0)
