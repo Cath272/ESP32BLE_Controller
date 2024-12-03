@@ -28,7 +28,8 @@ The controller uses the [ESP32 XINPUT library](https://github.com/Mystfit/ESP32-
 - 2 BC817 Transistors
   
 - 2 LEDS (RED for Power and BLUE IO2 configurable)
-
+  
+### Schematic:
 ![image](https://github.com/user-attachments/assets/a4106942-4592-48a9-bb1f-f15289bb0bf0)
 
 
