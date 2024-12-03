@@ -31,3 +31,6 @@ Software Design
 Results
 
 
+Resources
+[ESP32 XINPUT library](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
+
