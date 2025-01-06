@@ -3,7 +3,7 @@
 ESP32BLE_Controller is a ESP32 based project that aimes to make an affortable controller.
 
 The project idea came around when i wanted to incorporate pcb design with a esp32 microcontroller.
-The controller uses the [ESP32 XINPUT library](https://github.com/Mystfit/ESP32-BLE-CompositeHID) and can be used on any Bluetooth device that can accept xinput devices.
+The controller uses the [ESP32-BLE-CompositeHID library](https://github.com/Mystfit/ESP32-BLE-CompositeHID) and can be used on any Bluetooth device that can accept xinput devices.
 
 ## General description
 
@@ -67,11 +67,27 @@ Back:
 
 ## Software Design
 
-#TO DO 
+The program is simple and just reads what buttons are pressed and send the matching XINPUT mapped button through bluetooth to the connected device.
+The Program is centered around the [ESP32-BLE-CompositeHID library](https://github.com/Mystfit/ESP32-BLE-CompositeHID) and a specific version of [NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino) (Not needed anymore as the CompositeHID library was updated recently).
+I used the ESP32-BLE-CompositeHID library because i wanted it to work seamlessly with any windows device, as it just sees it as an Xbox Controller, and windows has xbox controller drivers built in. No need for Steam mapping or any other software.
+The Project uses buttons, an led for showing that it conected to the pc and it uses Serial to print any pressed button.
 
 ## Results
 
+![20250103_162523](https://github.com/user-attachments/assets/6bf10eb6-4615-48b2-950d-866487d8e802)
+![20250102_225240](https://github.com/user-attachments/assets/10fce1e2-f767-4a4d-8adf-90d4760c6650)
+![20250102_225247](https://github.com/user-attachments/assets/f4442df6-ccdd-4096-afed-11bc2477e041)
+![20250102_225254](https://github.com/user-attachments/assets/f5a9c1a6-21eb-436e-a0f3-0fb18dafa4a3)
+![20250103_162518](https://github.com/user-attachments/assets/bd085bcc-40dc-40c3-ade4-e4aadac33d6d)
+
+
+[Video demonstration](https://storage.rcs-rds.ro/links/72c412c2-119c-4140-a43d-5230902e5003)
+
+
+
+
 
 ## Resources
-[ESP32 XINPUT library](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
+[ESP32-BLE-CompositeHID library](https://github.com/Mystfit/ESP32-BLE-CompositeHID)
 
+[NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino)
